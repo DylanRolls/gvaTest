@@ -1,0 +1,624 @@
+/* ****************************Fonts Used *************************************/
+/* font-family: 'Lora', serif;
+font-family: 'Prosto One', cursive; */
+/* ****************************Fonts Used************************************ */
+/********************************Ids******************************************  */
+/* #cntrLi ul {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+} */
+#outerDiv {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#footer {
+  background-image: url("../images/indusB.jpg");
+  background-size: cover;
+}
+
+#nav {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+#mech, #arch, #serve, #productsMiura, #equipment, #aboutMiura {
+  color: white;
+  position: relative;
+  -webkit-text-stroke: .015rem black;
+}
+
+/* *******************************************TEST SHIT******************************************************* */
+.secBoxVP {
+  background-color: #f4f4f4;
+  display: inline-block;
+  position: relative;
+  padding-top: 3.5rem;
+  width: 100%;
+  z-index: -3
+}
+
+.offerBody {
+  background-color: #fcffff;
+  ;
+}
+
+.miuraP {
+  position: absolute;
+  background-image: url("../images/lx300.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  min-height: 27rem;
+  z-index: -2;
+}
+
+.miuraP1 {
+  position: absolute;
+  background-image: url("../images/ex300.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  min-height: 27rem;
+  z-index: -2;
+}
+
+.miuraP2 {
+  position: absolute;
+  background-image: url("../images/boilM.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  min-height: 27rem;
+  z-index: -2;
+}
+
+.miuraP3 {
+  position: absolute;
+  background-image: url("../images/colorM.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  min-height: 27rem;
+  z-index: -2;
+}
+
+.aquaP {
+  position: absolute;
+  background-image: url("../images/stt.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  min-height: 27rem;
+  z-index: -2;
+}
+
+.aquaP1 {
+  position: absolute;
+  background-image: url("../images/betterFreshBack.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  min-height: 40rem;
+  z-index: -2;
+}
+
+/* *******************************************TEST SHIT******************************************************* */
+/* *****************************Classes************************************** */
+/* ***************************************************************Col Modifiers***************************************************** */
+.-lM {
+  padding-left: 0;
+}
+
+.-rM {
+  padding-right: 0;
+}
+
+.tbM {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.bM {
+  margin-bottom: 1.2rem;
+}
+
+.bR {
+  background-color: red;
+}
+
+.bY {
+  background-color: yellow;
+}
+
+.cut {
+  overflow: hidden;
+}
+
+.pO {
+  padding: 0;
+}
+
+.imgBox {
+  padding-bottom: 15rem;
+  padding-top: 15rem;
+}
+
+.inBlock {
+  display: inline-block;
+}
+
+.stroke {
+  -webkit-text-stroke: .03rem black;
+}
+
+.wLink {
+  color: white;
+  -webkit-text-stroke: .03rem black;
+}
+
+.head {
+  display: inline-block;
+  position: relative;
+  margin-top: 3.5rem;
+  /* margin: 3rem 3rem 0 3rem; */
+  overflow: hidden;
+}
+
+/* .container {
+  max-width: 90%;
+} */
+/* ***************************************************************Col Modifiers***************************************************** */
+/* *****************************About Sections********************************* */
+.about {
+  padding-left: .3vw;
+  color: white;
+  font-family: 'Lora';
+  width: 100%;
+  height: 4rem;
+  position: absolute;
+  top: 5rem;
+  display: inline-block;
+  padding: 0 2.15vw;
+  -webkit-text-stroke: .03rem black;
+  z-index: 1;
+}
+
+.aboutBF {
+  color: white;
+  font-family: 'Lora';
+  width: 100%;
+  height: 4rem;
+  position: absolute;
+  top: 5rem;
+  display: inline-block;
+  -webkit-text-stroke: .03rem black;
+  z-index: 1;
+}
+
+.about1 {
+  padding-left: .25vw;
+  background-color: blue;
+  color: white;
+  font-family: 'Lora';
+  width: 100%;
+  height: content-size;
+  position: absolute;
+  top: 4.2rem;
+  display: inline-block;
+  padding: 0 2.15vw;
+  -webkit-text-stroke: .03rem black;
+  z-index: 1;
+}
+
+.about2 {
+  color: white;
+  background-color: blue;
+  background-image: url("../images/indusB.jpg");
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  padding: 6rem 0 .8rem 1rem;
+  overflow-y: auto;
+  -webkit-text-stroke: .03rem black;
+}
+
+.aboutB {
+  color: white;
+  position: relative;
+  padding: 0 .8rem .8rem .5rem;
+  overflow-y: auto;
+}
+
+.mechAbout {
+  /* background-color: blue; */
+  /* display: inline-block; */
+  /* width: 100%; */
+  position: relative;
+  top: 3.4rem;
+  margin-bottom: 4rem;
+}
+
+.archAbout {
+  display: inline-block;
+  width: 100%;
+}
+
+.serveAbout {
+  display: inline-block;
+  width: 100%;
+}
+
+/* *****************************About Sections********************************* */
+.aboutP {
+  display: inline;
+  font-family: 'Prosto One';
+}
+
+.aboutBack {
+  background-color: #547AA5;
+  background-image: url("../images/miuraL.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  height: 50vw;
+  max-height: 40rem;
+  min-height: 27.5rem;
+  z-index: -2;
+}
+
+.aboutBack1 {
+  background-color: #547AA5;
+  background-image: url("../images/indusA.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(90%);
+  width: 100%;
+  height: 50vw;
+  max-height: 30rem;
+  min-height: 15rem;
+  z-index: -2;
+}
+
+.holbyBack {
+  position: absolute;
+  background-color: #547AA5;
+  background-image: url("../images/holby2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  max-height: 28rem;
+  min-height: 27rem;
+  z-index: -2;
+}
+
+.holbyBack1 {
+  position: absolute;
+  background-color: #547AA5;
+  background-image: url("../images/tServe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  /* max-height: 28rem; */
+  min-height: 20rem;
+  z-index: -2;
+}
+
+.safeBack {
+  position: absolute;
+  background-color: #547AA5;
+  background-image: url("../images/safe1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  min-height: 27rem;
+  z-index: -2;
+}
+
+.bilcoBack {
+  position: absolute;
+  background-color: #547AA5;
+  background-image: url("../images/tArch.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  min-height: 18rem;
+  z-index: -2;
+}
+
+.someBack {
+  position: absolute;
+  background-color: #547AA5;
+  background-image: url("../images/indusB.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  min-height: 18rem;
+  z-index: -2;
+}
+
+.aquaBack {
+  background-color: #547AA5;
+  background-image: url("../images/betterFreshBack.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: blur(.5px) brightness(80%);
+  width: 100%;
+  height: 50vw;
+  max-height: 40rem;
+  min-height: 27.5rem;
+  z-index: -3;
+}
+
+.dropdown-menu a:hover {
+  color: black !important;
+}
+
+.carousel-inner {
+  max-height: 50vw;
+}
+
+.carousel-item img {
+  margin: auto;
+  max-width: 88%;
+  max-height: 50vw;
+}
+
+.carousel-control-next-icon {
+  background-color: #8AA1B8;
+  padding: 20%;
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  left: auto;
+  right: 0;
+}
+
+.carousel-control-prev-icon {
+  background-color: #8AA1B8;
+  padding: 20%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: auto;
+}
+
+.carWrap {
+  background-color: black;
+}
+
+.dropdown-item:hover {
+  color: black;
+}
+
+.footWrap {
+  padding-bottom: 2vw;
+}
+
+.footWrap::after {
+  content: '';
+  background-image: url("../images/indusB.jpg");
+  background-size: cover;
+  filter: brightness(2%);
+}
+
+.formsWrap {
+  background-color: #FFCB47;
+  padding: 1rem 10%;
+}
+
+.cap {
+  display: inline-block;
+  font-family: 'Lorca';
+  font-size: 3.2vw;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: #009f4d;
+  width: 100%;
+  height: 14rem;
+  display: inline-block;
+  position: relative;
+}
+
+.imgWrap {
+  width: 100%;
+  margin: -5px 0;
+  text-align: center;
+}
+
+.imgWrap1 {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+.imgWrap2 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  max-width: 10rem;
+}
+
+.miuraMov {
+  display: inline-block;
+  position: relative;
+  top: .65rem;
+}
+
+.movWrap {
+  width: 100%;
+  position: relative;
+}
+
+.navbar1 {
+  background-color: #293132;
+  font-family: 'Prosto One';
+  width: 100%;
+  height: 3rem;
+  display: inline-block;
+  position: relative;
+}
+
+.logG {
+  display: inline-block;
+  text-align: center;
+}
+
+.logsP {
+  display: inline-block;
+  max-width: 15vw;
+}
+
+div>li {
+  margin: 0 .5rem;
+}
+
+.pageWrap {
+  color: white;
+  position: relative;
+  margin: 0 1rem;
+}
+
+.pageWrapOff {
+  color: white;
+  position: relative;
+  margin: 0;
+  z-index: -3;
+}
+
+.pageWrap h1, h2, h3, p {
+  margin: 0 .5rem;
+}
+
+.secHead {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.smallLi {
+  font-size: .75rem;
+}
+
+.title {
+  text-align: center;
+  display: block;
+  position: relative;
+  color: white;
+  -webkit-text-stroke: .03rem black;
+}
+
+/* **********************************Elements************************************** */
+body {
+  line-height: 1.4;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Prosto One';
+}
+
+hr {
+  border-style: none;
+  border-top-style: double;
+  border-color: #FFCB47;
+  border-width: 6px;
+  margin: .5vw 0;
+  width: inherit;
+}
+
+p {
+  font-family: 'Prosto One';
+}
+
+/* li {
+  text-align: left;
+  display: block;
+  position: relative;
+  list-style-type: none;
+} */
+/* li::before {
+  content: '•';
+  color: #FFCB47;
+} */
+/* **********************************Elements************************************** */
+/* **************************************Media Queries******************************************** */
+@media screen and (min-width: 601px) {
+  .about {
+    padding-left: .9vw;
+  }
+
+  .aboutP {
+    font-size: 2.35vw;
+  }
+
+  .miuraMov {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .miuraMov {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .miuraMov {
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    padding: 0 2.9vw;
+  }
+
+  .aboutP {
+    font-size: .88rem;
+  }
+
+  .miuraMov {
+    height: 220px;
+  }
+}
+
+/* **************************************Media Queries**************************************** */
